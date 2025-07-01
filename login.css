@@ -1,0 +1,174 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.logo1{
+  margin-top: 25%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.logo2{
+    width: 35px;
+    height: 25px;
+}
+.logo3{
+     width: 20px;
+    height: 20px;
+    
+}
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+  
+header {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  
+}
+
+body {
+  background-color: #050607;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+}
+
+
+.close{
+position: absolute;
+  top: 30px;
+  left: 470px;
+  font-size: 19px;
+  cursor: pointer;
+  color: whitesmoke;
+ 
+}
+
+
+.signup{
+  font-size: 15px;
+  color: #8899a6;
+  margin-top: 60px;
+}
+
+.Policy{
+  color: gray;
+  font-size: 69%;
+}
+
+.terms{
+  color: #1d9bf0;
+  cursor: pointer;
+}
+
+.privacy{
+   color: #1d9bf0;
+  cursor: pointer;
+}
+
+.cookie{
+   color: #1d9bf0;
+  cursor: pointer;
+}
+
+.in{
+  background-color: white;
+  color: #1DA1F2;
+  cursor: pointer;
+  padding: 9px;
+  font-size: 15px;
+  border-radius: 999px;
+   width: 300px;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 210px;
+   
+}
+
+
+.google{
+  color: black;
+  width: 300px;
+  padding: 9px;
+  font-size: 14px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+ 
+}
+
+.apple{
+  width: 300px;
+  padding: 9px;
+  font-size: 14px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 13px;
+}
+
+.next{
+  width: 300px;
+  padding: 9px;
+  font-size: 14px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #1DA1F2;
+  color: white;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  
+  
+}
+
+.divider{
+  display: flex;
+  color: gray;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#orline1{
+    margin: 0px;
+    border: 1px solid rgba(211, 211, 211, 0.219); 
+    margin-right: 2%;
+    width: 10%;        
+    
+}
+#orline2{
+    margin: 0px;
+    border: 1px solid rgba(211, 211, 211, 0.219);
+    margin-left: 2%; 
+    margin-right: 2%;
+    width: 10%;        
+    
+}
+.account{
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 13px;
+  font-size: 110%;
+}
+.secondRow{
+  margin-left: 26%;
+} 
